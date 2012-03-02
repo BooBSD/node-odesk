@@ -1,0 +1,14 @@
+{
+  "name": "node-odesk",
+  "description": "Node.JS bindings for oDesk API",
+  "version": "0.0.1",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "index.js",
+  "author": "Artem Gnilov <boobsd@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/boobsd/node-odesk.git"
+  }
+}
