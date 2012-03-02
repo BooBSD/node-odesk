@@ -8,7 +8,7 @@ var secret = '';
 function getUserData(key, secret) {
     console.log("\nEmulating web-based app...");
     var o = new odesk(key, secret);
-    o.OAuth.getAuthorizeUrl(function(error, url, requestToken, requestTokenSecret) {
+    o.OAuth.getAuthorizeUrl('http://localhost/complete', function(error, url, requestToken, requestTokenSecret) {
         if(error) console.log(error);
         else {
             console.log("Please go to this URL (authorize the app if necessary):");
