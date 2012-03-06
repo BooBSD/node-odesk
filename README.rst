@@ -49,6 +49,6 @@ Set accessToken::
 
 Get user info from oDesk API::
 
-    o.get('auth/v1/info.json', function(error, data) {
+    o.get('auth/v1/info', function(error, data) {
         console.log(error || data);
     });
