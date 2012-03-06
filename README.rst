@@ -55,6 +55,6 @@ Get user info from oDesk API::
 
 Also you can use POST, PUT or DELETE methods::
 
-    o.put('team/v1/snapshots/<company>/<username>/<timestamp>', {memo: "Testing..."}), function(error, data) {
+    o.put('team/v1/snapshots/<company>/<username>/<timestamp>', {memo: "Testing..."}, function(error, data) {
         console.log(error || data);
     });
