@@ -9,7 +9,7 @@ function getUserData(key, secret) {
     console.log("\nEmulating web-based app...");
     var o = new odesk(key, secret);
     o.OAuth.getAuthorizeUrl('http://localhost/complete', function(error, url, requestToken, requestTokenSecret) {
-        if(error) console.log(error);
+        if(error) console.log(error)
         else {
             console.log("Please go to this URL (authorize the app if necessary):");
             console.log(url);
@@ -21,8 +21,6 @@ function getUserData(key, secret) {
                 o.OAuth.getAccessToken(requestToken, requestTokenSecret, verifier, function(error, accessToken, accessTokenSecret) {
                     if(error) console.log(error);
                     else {
-                        o.OAuth.accessToken = accessToken;
-                        o.OAuth.accessTokenSecret = accessTokenSecret;
                         // Async requests
                         o.get('auth/v1/info.json', function(error, data) {
                             console.log("Authenticated user info:\n", error || data, "\n");
