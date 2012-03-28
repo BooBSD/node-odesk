@@ -12,6 +12,8 @@ Requirements
 Installation
 ============
 
+To install node-odesk please run the following command::
+
     $ npm install node-odesk
 
 Usage
