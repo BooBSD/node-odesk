@@ -9,6 +9,11 @@ Requirements
 
     * `node-oauth`
 
+Installation
+============
+
+    $ npm install node-odesk
+
 Usage
 =====
 
