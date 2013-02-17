@@ -1,8 +1,12 @@
 {
   "name": "node-odesk",
   "description": "Node.JS bindings for oDesk API",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Artem Gnilov <boobsd@gmail.com>",
+  "contributors": [
+    "name": "dglittle",
+    "url": "https://github.com/dglittle"
+  ],
   "homepage": "https://github.com/BooBSD/node-odesk",
   "repository": {
     "type": "git",
