@@ -4,8 +4,10 @@
   "version": "0.0.4",
   "author": "Artem Gnilov <boobsd@gmail.com>",
   "contributors": [
-    "name": "dglittle",
-    "url": "https://github.com/dglittle"
+    {
+      "name": "dglittle",
+      "url": "https://github.com/dglittle"
+    }
   ],
   "homepage": "https://github.com/BooBSD/node-odesk",
   "repository": {
