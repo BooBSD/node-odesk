@@ -20,7 +20,7 @@
   },
   "main": "index",
   "dependencies": {
-    "oauth": "0.9.8"
+    "oauth": "0.9.10"
   },
   "keywords": ["oauth", "rest", "odesk", "api", "wrapper"],
   "engines": {
