@@ -1,7 +1,7 @@
 {
   "name": "node-odesk",
   "description": "Node.JS bindings for oDesk API",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Artem Gnilov <boobsd@gmail.com>",
   "contributors": [
     {
@@ -20,7 +20,8 @@
   },
   "main": "index",
   "dependencies": {
-    "oauth": "0.9.10"
+    "oauth": "0.9.10",
+    "qs": "~0.6.5"
   },
   "keywords": ["oauth", "rest", "odesk", "api", "wrapper"],
   "engines": {
